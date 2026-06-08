@@ -16,23 +16,26 @@ import pandas as pd
 import numpy as np
 import joblib
 
-Load Model
-"""
+# =====================================
+# LOAD MODEL
+# =====================================
 
 model = joblib.load('model_gerd_rf.pkl')
 scaler = joblib.load('scaler.pkl')
 feature_names = joblib.load('feature_names.pkl')
 
-Konfigurasi Halaman
-"""
+# =====================================
+# KONFIGURASI HALAMAN
+# =====================================
 
 st.set_page_config(
     page_title="Prediksi Risiko GERD",
     layout="centered"
 )
 
-Header
-"""
+# =====================================
+# HEADER
+# =====================================
 
 st.title("Sistem Prediksi Risiko GERD")
 
@@ -50,8 +53,9 @@ st.info(
     "4 = Setiap Hari"
 )
 
-Input User
-"""
+# =====================================
+# INPUT USER
+# =====================================
 
 st.subheader("Input Data Pengguna")
 
@@ -160,8 +164,6 @@ red_meat_frequency = st.number_input(
     value=0,
     step=1
 )
-
-"""Prediksi"""
 
 # =====================================
 # PREDIKSI
