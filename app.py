@@ -223,5 +223,3 @@ if st.button("Prediksi Risiko GERD"):
         st.error("⚠️ Pengguna berisiko GERD")
     else:
         st.success("✅ Pengguna tidak berisiko GERD")
-
-st.dataframe(importance_df)
