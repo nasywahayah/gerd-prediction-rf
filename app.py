@@ -41,15 +41,14 @@ Sistem ini digunakan untuk memprediksi risiko Gastroesophageal Reflux Disease (G
 berdasarkan pola makan menggunakan algoritma Random Forest.
 """)
 
-st.info("""
-Keterangan Skala Frekuensi Konsumsi:
-
-0 = Tidak Pernah
-1 = Jarang (1–2 kali per minggu)
-2 = Kadang-kadang (3–4 kali per minggu)
-3 = Sering (5–6 kali per minggu)
-4 = Setiap Hari
-""")
+st.info(
+    "Keterangan Skala Frekuensi Konsumsi:\n\n"
+    "0 = Tidak Pernah\n"
+    "1 = Jarang (1-2 kali per minggu)\n"
+    "2 = Kadang-kadang (3-4 kali per minggu)\n"
+    "3 = Sering (5-6 kali per minggu)\n"
+    "4 = Setiap Hari"
+)
 
 Input User
 """
