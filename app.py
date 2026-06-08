@@ -16,20 +16,23 @@ import pandas as pd
 import numpy as np
 import joblib
 
-"""Load Model"""
+Load Model
+"""
 
 model = joblib.load('model_gerd_rf.pkl')
 scaler = joblib.load('scaler.pkl')
 feature_names = joblib.load('feature_names.pkl')
 
-"""Konfigurasi Halaman"""
+Konfigurasi Halaman
+"""
 
 st.set_page_config(
     page_title="Prediksi Risiko GERD",
     layout="centered"
 )
 
-"""Header"""
+Header
+"""
 
 st.title("Sistem Prediksi Risiko GERD")
 
