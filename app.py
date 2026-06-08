@@ -51,7 +51,8 @@ Keterangan Skala Frekuensi Konsumsi:
 4 = Setiap Hari
 """)
 
-"""Input User"""
+Input User
+"""
 
 st.subheader("Input Data Pengguna")
 
