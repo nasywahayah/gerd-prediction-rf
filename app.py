@@ -62,6 +62,9 @@ st.subheader("Input Data Pengguna")
 
 st.markdown("### Jenis Diet")
 st.caption("Isi dengan 1 = Ya dan 0 = Tidak")
+st.caption("\nOmnivora: Makan segalanya (tumbuhan + daging + produk turunan)")
+st.caption("Vegetarian: Makan tumbuhan + produk turunan hewan (susu/telur), tapi tanpa daging")
+st.caption("Vegan: Hanya makan tumbuhan. Total tanpa daging dan tanpa produk turunan hewan (termasuk madu)")
 
 diet_omn = st.number_input(
     "Diet Omnivore",
