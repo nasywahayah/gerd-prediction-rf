@@ -67,7 +67,7 @@ st.caption("Vegetarian: Makan tumbuhan + produk turunan hewan (susu/telur), tapi
 st.caption("Vegan: Hanya makan tumbuhan. Total tanpa daging dan tanpa produk turunan hewan (termasuk madu)")
 
 diet_omn = st.number_input(
-    "Diet Omnivore",
+    "Diet Omnivora",
     min_value=0,
     max_value=1,
     value=0
